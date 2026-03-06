@@ -10,7 +10,7 @@ Offline dictionary build pipeline:
 
 ### `words.txt`
 
-Plain text file with one word per line, sorted alphabetically. Contains ~200k normalized English words (uppercase A-Z only, no hyphens, accents, or apostrophes). Sourced from SCOWL size 80 which covers all standard English words including uncommon ones used in word games like Scrabble.
+Plain text file with one word per line, sorted alphabetically. Contains ~189k normalized common English words (uppercase A-Z only, no hyphens, accents, or apostrophes). Abbreviations (e.g. FBI, DNA) and proper nouns (e.g. Aaron, Texas) are excluded by filtering to lowercase-only entries in the raw SCOWL output before normalization. Sourced from SCOWL size 80 which covers all standard English words including uncommon ones used in word games like Scrabble.
 
 ### `dict.dawg`
 
@@ -26,8 +26,8 @@ Metadata about the source, build profile, word count stats, and DAWG artifact ch
 - Pinned commit: `744c092883db13112f6680892850c1f1b6547b81`
 - Size: `80`
 - Spellings: `A,B,Z,C,D` (US/UK/CA/AU)
-- Classes: core words only (`--poses-to-exclude=abbr`, empty categories/tags)
-- Normalization: uppercase, strip non-`A-Z`
+- Classes: core words only (`--poses-to-exclude=abbr`, empty categories/tags), filtered to lowercase-only SCOWL entries (no proper nouns or abbreviations)
+- Normalization: filter to lowercase-only, then uppercase, strip non-`A-Z`
 
 ## Build commands
 

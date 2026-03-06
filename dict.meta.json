@@ -17,17 +17,17 @@
     ],
     "variantLevel": 5,
     "classes": "core",
-    "normalization": "uppercase-alpha-strip"
+    "normalization": "lowercase-only-then-uppercase-alpha-strip"
   },
   "stats": {
-    "wordCount": 200894,
+    "wordCount": 191014,
     "minLength": 1,
     "maxLength": 32,
-    "buildTimestamp": "2026-02-25T23:47:41.051652+00:00"
+    "buildTimestamp": "2026-03-06T04:20:40.482735+00:00"
   },
   "artifacts": {
     "dawgFile": "dict.dawg",
-    "dawgBytes": 401041,
-    "dawgSha256": "f6d30945c838ade003dbd37d9dfde184abfbe0b061a47eca324d2f94fad4d356"
+    "dawgBytes": 380986,
+    "dawgSha256": "cabe5855974cd7ddf1ed9f0b4d7bbec3010a0b0687bfd7a0db64d77b9274a6a8"
   }
 }
