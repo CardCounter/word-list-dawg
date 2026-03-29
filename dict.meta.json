@@ -1,0 +1,41 @@
+{
+  "source": {
+    "repo": "https://github.com/en-wl/wordlist",
+    "branch": "v2",
+    "commit": "744c092883db13112f6680892850c1f1b6547b81",
+    "archiveUrl": "https://github.com/en-wl/wordlist/archive/744c092883db13112f6680892850c1f1b6547b81.tar.gz",
+    "sha256": "092f3b8d7672e6d4ceeda195eac9eec9cd32a503666a62ab242589d7b67eb156"
+  },
+  "profile": {
+    "size": 80,
+    "spellings": [
+      "A",
+      "B",
+      "Z",
+      "C",
+      "D"
+    ],
+    "variantLevel": 5,
+    "classes": "core",
+    "normalization": "lowercase-only-then-lowercase-alpha-strip"
+  },
+  "stats": {
+    "wordCount": 291058,
+    "minLength": 1,
+    "maxLength": 32,
+    "buildTimestamp": "2026-03-16T03:04:14.512820+00:00"
+  },
+  "artifacts": {
+    "dawgFile": "dict.dawg",
+    "dawgBytes": 576731,
+    "dawgSha256": "a3f92a5a281af56acf41fea2fbc0372b181f60b7c267c7d868100e850c27bab4"
+  },
+  "additionalSources": [
+    {
+      "name": "csw21",
+      "description": "Collins Scrabble Words 2021 (SOWPODS/International)",
+      "url": "https://raw.githubusercontent.com/scrabblewords/scrabblewords/main/words/British/CSW21.txt",
+      "wordCountRaw": 279077
+    }
+  ]
+}
